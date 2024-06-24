@@ -13,6 +13,34 @@
     --nav-hover-background-color: #5BC0EB;
     }
 
+header {
+    margin: 1rem auto;
+    padding: 0.5rem 2rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1600px;
+}
+
+header img {
+    max-height: 120px;
+}
+
+nav{
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -71,12 +99,60 @@ section img {
     display: block;
 }
 
-nav a {
-    color: var(--nav-link-color);
-    text-decoration: none;
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.history-section {
+    text-align: center;
     padding: 1rem;
+    margin-top: 3rem;
+    border: 1px solid #ccc;
+}
+
+.history-section h2{
+    margin: 0 0 1rem 0;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 50px;
+    align-items: start;
+    text-align: start;
+}
+
+.history-grid img {
+    height: 170px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.sociallinks a {
+    display: inline-block;
 }
 
 .icon {
-    width: 50px;
+    width: 30px;
+    height: auto;
 }
