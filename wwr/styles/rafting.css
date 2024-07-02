@@ -222,7 +222,7 @@ footer p {
     height: 100%;
 }
 
-.form-container .radio-group,
+.form-container .radio-group div,
 .form-container .checkbox-group {
     display: flex;
     flex-direction: row;
