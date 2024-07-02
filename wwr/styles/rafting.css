@@ -203,6 +203,8 @@ footer p {
 
 .company-info-subcontainer {
     max-width: 40%;
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
 }
 
 .form-container {
