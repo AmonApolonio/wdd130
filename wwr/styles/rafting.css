@@ -63,7 +63,7 @@ body {
     position: relative;
 }
 
-.hero h1{
+.about-hero h1{
     position: absolute;
     top: 50px;
     width: 100%;
@@ -71,7 +71,7 @@ body {
     text-align: center;
 }
 
-.hero article{
+.about-hero article{
     position: absolute;
     top: 170px;
     left: 330px;
@@ -80,7 +80,7 @@ body {
     background-color: rgb(250, 157, 27, 0.7);
 }
 
-.hero article img{
+.about-hero article img{
     float: right;
     max-width: 30%;
 }
@@ -295,6 +295,36 @@ table.trips-table th, table.trips-table td {
     max-height: 150px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.grid-item {
+    text-align: center;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.home-float-text {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    background-color: rgba(13, 13, 12, 0.7);
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+}
+
+.check-trips {
+    text-align: start;
+    align-items: start;
+}
+
 .spacingV1 {
     padding: 1rem 0 1rem 0;
     margin: 1rem 0 1rem 0;
@@ -313,4 +343,12 @@ table.trips-table th, table.trips-table td {
 .spacingH2 {
     padding: 0 2rem 0 2rem;
     margin: 0 2rem 0 2rem;
+}
+
+.spacing1 {
+    padding: 1rem;
+}
+
+.spacing2 {
+    padding: 2rem;
 }
