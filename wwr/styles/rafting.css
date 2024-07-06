@@ -85,7 +85,7 @@ body {
     max-width: 30%;
 }
 
-h2 {
+h1, h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
 }
@@ -93,10 +93,6 @@ h2 {
 p, label {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
-}
-
-section img {
-    display: block;
 }
 
 .adventure-grid {
@@ -117,7 +113,6 @@ figure img {
 }
 
 section {
-    margin-top: 3rem;
     text-align: center;
     background-color: #f9f9f9;
     padding: 2rem;
@@ -126,7 +121,6 @@ section {
 }
 
 .history-section {
-    padding: 1rem;
     border: 1px solid #ccc;
 }
 
@@ -140,6 +134,7 @@ section {
     gap: 50px;
     align-items: start;
     text-align: start;
+    padding: 0 2rem 0 2rem;
 }
 
 .history-grid img {
@@ -179,17 +174,15 @@ footer p {
     height: auto;
 }
 
-.contact-us-container {
+.horizontal-list {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: space-around;
 }
 
 .information-container {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 3rem 3rem 0rem 3rem;
 }
 
 .company-info-container {
@@ -203,8 +196,6 @@ footer p {
 
 .company-info-subcontainer {
     max-width: 40%;
-    color: var(--accent1-color);
-    font-family: var(--heading-font);
 }
 
 .form-container {
@@ -270,15 +261,56 @@ button:hover {
     padding: 0;
 }
 
-.employee-profiles {
-    display: flex;
-    justify-content: space-around;
-}
-
 .profile {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     display: block;
     margin: 1rem auto;
+}
+
+.trip {
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.trip img {
+    max-height: 300px;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.trips-table th, table.trips-table td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+    width: 25%;
+}
+
+.contact-us-bottom img{
+    max-height: 150px;
+}
+
+.spacingV1 {
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
+}
+
+.spacingV2 {
+    padding: 2rem 0 2rem 0;
+    margin: 2rem 0 2rem 0;
+}
+
+.spacingH1 {
+    padding: 0 1rem 0 1rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.spacingH2 {
+    padding: 0 2rem 0 2rem;
+    margin: 0 2rem 0 2rem;
 }
